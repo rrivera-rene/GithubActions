@@ -115,10 +115,9 @@ namespace GithubActionsLab
         [Test]
         public void Power_Valid()
         {
-            // Note: Uncomment the following line when Power is implemented in Program.cs
-            // Assert.AreEqual(1, Program.Power("2", "0"));
-            // Assert.AreEqual(8, Program.Power("2", "3"));
-            // Assert.AreEqual(25, Program.Power("5", "2"));
+            Assert.AreEqual(1, Program.Power("2", "0"));
+            Assert.AreEqual(8, Program.Power("2", "3"));
+            Assert.AreEqual(25, Program.Power("5", "2"));
         }
 
         [Test]
